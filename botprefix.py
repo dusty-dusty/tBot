@@ -8,13 +8,3 @@ CHANNELS=['forsen', 'lirik', 'drdisrespect','mizkif','trainwreckstv','xqcow','po
           "DizzyKitten", 'LoserFruit', 'KittyPlays', 'loeya','alinity', 'stpeach', 'adeptthebest', 'nmplol',
           "paymoneywubby", "knut", "nymn", "imaqtpie", "kitboga","sodapoppin","riotgames", "academy","avoidingthepuddle", "esl_csgo","rainbow6"]#arigameplays
 
-
-'''
-kirovthebrutal
-buddyhieldgoated
-undxad23
-crimple4skin
-jackorano( toxic)
-bruhmomentum124 ( toxic )
-AyyyPapi1 (toxic)
-'''
