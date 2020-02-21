@@ -68,7 +68,7 @@ async def event_message( ctx ):
     if '%' in ctx.content.lower()[ 0:1 ]:
         opts = {'level': 'Info', 'app': 'TwitchLogger'}
         logs.info(f"{ctx.channel} {ctx.author.name}, Has run command: {fixPre}", opts)
-    if ctx.author.name == "dusty_________":
+    if ctx.author.name == "myname":
         opts = {'level': 'Info', 'app': 'TwitchLogger'}
         logs.info(f"{ctx.channel} {ctx.author.name}: {fixPre}", opts)
     promptTimer = time() - startTimerP
@@ -83,7 +83,7 @@ async def event_message( ctx ):
 async def checkLive2( ctx ):
     opts = {'level': 'Info', 'app': 'TwitchLogger'}
     logs.info(f"Size left to commit:{len(toCommit)}", opts)
-    await bot._ws.send_privmsg( "dusty_________" , f'to commit left: {len(toCommit)}' )
+    await bot._ws.send_privmsg( "name" , f'to commit left: {len(toCommit)}' )
 
 async def listCommit( ctx ):
     global hasNot
@@ -123,7 +123,7 @@ async def AlebrelleFirst( ctx ):
         temp3 = False
         await bot._ws.send_privmsg( "alebrelle" , '!first' )
         await asyncio.sleep( 4 )
-        await bot._ws.send_privmsg( "alebrelle" , 'A bot beat you all :) if not  @Dusty_________ and tell him how bad he is!' )
+        await bot._ws.send_privmsg( "alebrelle" , 'A bot beat you all :) if not  @name and tell him how bad he is!' )
         opts = {'level': 'Info', 'app': 'AllLogs'}
         logs.info(f"liveCheck : Is Frist. Check :)", opts)
     if not liveCheck and not temp3:
