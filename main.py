@@ -1,6 +1,6 @@
 import sqlite3
 import asyncio
-import twitchio
+import twitchio #needed to fix api bug
 from twitchio.ext import commands
 from time import sleep , strftime, time
 from logging import getLogger , INFO
